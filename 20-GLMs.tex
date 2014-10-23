@@ -1,0 +1,75 @@
+Fitting Generalized Linear Models
+https://stat.ethz.ch/R-manual/R-devel/library/stats/html/glm.html
+
+
+
+Accessing Generalized Linear Model Fits
+
+
+
+Model Deviance
+https://stat.ethz.ch/R-manual/R-devel/library/stats/html/deviance.html
+
+====================================================================================
+
+Objects of a glm class
+An object of class "glm" is a list containing at least the following components: 
+
+coefficients a named vector of coefficients
+ 
+residuals the working residuals, that is the residuals in the final iteration of the IWLS fit. Since cases with zero weights are omitted, their working residuals are NA.
+ 
+fitted.values the fitted mean values, obtained by transforming the linear predictors by the inverse of the link function.
+ 
+rank the numeric rank of the fitted linear model.
+ 
+family the family object used.
+ 
+linear.predictors the linear fit on link scale.
+ 
+deviance up to a constant, minus twice the maximized log-likelihood. Where sensible, the constant is chosen so that a saturated model has deviance zero.
+ 
+aic A version of Akaike's An Information Criterion, minus twice the maximized log-likelihood plus twice the number of parameters, computed by the aic component of the family. For binomial and Poison families the dispersion is fixed at one and the number of parameters is the number of coefficients. For gaussian, Gamma and inverse gaussian families the dispersion is estimated from the residual deviance, and the number of parameters is the number of coefficients plus one. For a gaussian family the MLE of the dispersion is used so this is a valid value of AIC, but for Gamma and inverse gaussian families it is not. For families fitted by quasi-likelihood the value is NA.
+ 
+null.deviance The deviance for the null model, comparable with deviance. The null model will include the offset, and an intercept if there is one in the model. Note that this will be incorrect if the link function depends on the data other than through the fitted mean: specify a zero offset to force a correct calculation.
+ 
+iter the number of iterations of IWLS used.
+ 
+weights the working weights, that is the weights in the final iteration of the IWLS fit.
+ 
+prior.weights the weights initially supplied, a vector of 1s if none were.
+ 
+df.residual the residual degrees of freedom.
+ 
+df.null the residual degrees of freedom for the null model.
+ 
+y if requested (the default) the y vector used. (It is a vector even for a binomial model.)
+ 
+x if requested, the model matrix.
+ 
+model if requested (the default), the model frame.
+ 
+converged logical. Was the IWLS algorithm judged to have converged?
+ 
+boundary logical. Is the fitted value on the boundary of the attainable values?
+ 
+call the matched call.
+ 
+formula the formula supplied.
+ 
+terms the terms object used.
+ 
+data the data argument.
+ 
+offset the offset vector used.
+ 
+control the value of the control argument used.
+ 
+method the name of the fitter function used, currently always "glm.fit".
+ 
+contrasts (where relevant) the contrasts used.
+ 
+xlevels (where relevant) a record of the levels of the factors used in fitting.
+ 
+na.action (where relevant) information returned by model.frame on the special handling of NAs.
+ 

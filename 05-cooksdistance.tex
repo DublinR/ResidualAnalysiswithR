@@ -1,0 +1,83 @@
+http://www.mathworks.co.uk/help/stats/cooks-distance.html
+
+Cook's Distance
+
+Purpose
+Cook's distance is useful for identifying outliers in the X values (observations for predictor variables). It also shows the influence of each observation on the fitted response values. An observation with Cook's distance larger than three times the mean Cook's distance might be an outlier.
+
+Definition
+Cook's distance is the scaled change in fitted values. Each element in CooksDistance is the normalized change in the vector of coefficients due to the deletion of an observation. The Cook's distance, Di, of observation i is
+
+D
+i
+=
+n
+
+j=1
+(
+ˆ
+y
+j
+−
+ˆ
+y
+j(i)
+)
+2
+p MSE
+,
+where
+
+ˆ
+y
+j
+ is the jth fitted response value.
+ˆ
+y
+j(i)
+ is the jth fitted response value, where the fit does not include observation i.
+MSE is the mean squared error.
+p is the number of coefficients in the regression model.
+Cook's distance is algebraically equivalent to the following expression:
+
+D
+i
+=
+r
+2
+i
+p MSE
+
+h
+ii
+(1−h
+ii
+)
+2
+,
+where ri is the ith residual, and hii is the ith leverage value.
+
+CooksDistance is an n-by-1 column vector in the Diagnostics table of the LinearModel object.
+
+How To
+After obtaining a fitted model, say, mdl, using fitlm or stepwiselm, you can:
+
+Display the Cook's distance values by indexing into the property using dot notation,
+mdl.Diagnostics.CooksDistance
+Plot the Cook's distance values using
+plotDiagnostics(mdl,'cookd')
+For details, see the plotDiagnostics method of the LinearModel class.
+Determine Outliers Using Cook's Distance
+This example shows how to use Cook's Distance to determine the outliers in the data.
+
+Load the sample data and define the independent and response variables.
+
+load hospital
+X = double(hospital(:,2:5));
+y = hospital.BloodPressure(:,1);
+Fit the linear regression model.
+
+mdl = fitlm(X,y);
+Plot the Cook's distance values.
+
+plotDiagnostics(mdl,'cookd')

@@ -1,0 +1,31 @@
+Checking Assumptions in ANOVA and Linear Regression Models: The Distribution of Dependent Variables
+by KAREN
+Here’s a little reminder for those of you checking assumptions in regression and ANOVA:
+
+The assumptions of normality and homogeneity of variance for linear models are not about Y, the dependent variable.  
+(If you think I’m either stupid, crazy, or just plain nit-picking, read on.  This distinction really is important).
+
+The distributional assumptions for linear regression and ANOVA are for the distribution of Y|X — that’s Y given X.  You have to take out the effects of all the Xs before you look at the distribution of Y.  As it turns out, the distribution of Y|X is, by definition, the same as the distribution of the residuals.  So the easiest way to check the distribution of Y|X is to save your residuals and check their distribution.
+
+I’ve seen too many researchers drive themselves crazy trying to transform skewed Y distributions before they’ve even run the model.  The distribution of the dependent variable can tell you what the distribution of the residuals is not—you just can’t get normal residuals from a binary dependent variable.
+
+But it cannot always tell what the distribution of the residuals is.
+
+If a categorical independent variable had a big effect, the dependent variable would have a continuous, bimodal distribution.  
+
+But the residuals (or the distribution within each category of the independent variable) would be normally distributed.
+
+And what are those distributional assumptions of Y|X?
+
+
+\begin{enumerate}
+\item Independence
+
+\item Normality
+
+\item Constant Variance
+
+\end{itemize}
+
+
+You can check all three with a few residual plots–a Q-Q plot of the residuals for normality and a scatterplot of Residuals on X or Predicted values of Y to check 1 and 3.

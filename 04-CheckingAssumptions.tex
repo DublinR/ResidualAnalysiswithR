@@ -29,3 +29,17 @@ And what are those distributional assumptions of Y|X?
 
 
 You can check all three with a few residual plots–a Q-Q plot of the residuals for normality and a scatterplot of Residuals on X or Predicted values of Y to check 1 and 3.
+
+
+%==============================================================================================%
+
+ANOVA and Regression are really just two forms of the same theoretical model.
+
+Now since the assumptions are about Y given X (Y|X), and the X’s usually have a different form in the two models, they do manifest slightly differently. For example, if you look at two very simple models–a one way anova and a simple regression with a single continuous predictor–the X is categorical in the former and continuous in the latter.
+
+That means that in the ANOVA, the assumptions about Y|X being independent with normal distribution and constant variance means apply to the values of Y within each level of X.
+
+In the regression, since X is continuous, it’s hard to look at the distribution of Y at EACH value of X (it’s impossible, actually, theoretically). So although the assumption is the same, it’s easier to check it by looking at the residuals, which have the same distribution as Y|X.
+
+
+%==============================================================================================%

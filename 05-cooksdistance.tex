@@ -1,6 +1,23 @@
 http://www.mathworks.co.uk/help/stats/cooks-distance.html
 
 Cook's Distance
+It is calculated as:
+D_i = \frac{ \sum_{j=1}^n (\hat Y_j\ - \hat Y_{j(i)})^2 }{p \ \mathrm{MSE}},
+where:
+\hat Y_j \, is the prediction from the full regression model for observation j;
+\hat Y_{j(i)}\, is the prediction for observation j from a refitted regression model in which observation i has been omitted;
+p is the number of fitted parameters in the model;
+ \mathrm{MSE} \, is the mean square error of the regression model.
+
+The following are the algebraically equivalent expressions (in case of simple linear regression):
+D_i = \frac{e_i^2}{p \ \mathrm{MSE}}\left[\frac{h_{ii}}{(1-h_{ii})^2}\right],
+D_i = \frac{ (\hat \beta - \hat {\beta}^{(-i)})^T(X^TX)(\hat \beta - \hat {\beta}^{(-i)}) } {(1+p)s^2},
+where:
+h_{ii} \, is the leverage, i.e., the i-th diagonal element of the hat matrix \mathbf{X}\left(\mathbf{X}^T\mathbf{X}\right)^{-1}\mathbf{X}^T;
+e_i \, is the residual (i.e., the difference between the observed value and the value fitted by the proposed model).
+
+%============================================================================================================%
+
 
 Purpose
 Cook's distance is useful for identifying outliers in the X values (observations for predictor variables). It also shows the influence of each observation on the fitted response values. An observation with Cook's distance larger than three times the mean Cook's distance might be an outlier.

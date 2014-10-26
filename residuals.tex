@@ -1,0 +1,51 @@
+\documentclass[]{article}
+
+\usepackage{framed}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage{subfiles}
+	
+%opening
+\title{}
+\author{}
+
+\begin{document}
+\large
+
+\section{Introduction to Residual Analysis with R}
+
+%------------------------------------- %
+% Part 12
+% Outliers
+\subfile{12-InfluentialPoints.tex}
+
+%------------------------------------- %
+%Part 14
+% Cook's Distance (OLS)
+% Leverage
+\newpage
+\subfile{14-cooksD-leverage.tex}
+
+ % - DFFITS
+ % - DFBETA
+ % - COVRATIO
+ 
+%------------------------------------- %
+% Part 17
+% - Residual Deletion Diagnostics
+\newpage
+\subfile{17-influencemeasures.tex}
+
+\newpage
+
+%-------------------------------------- %
+\section{LME Models}
+
+% What are LMEs?
+% R package - nlme
+
+
+\subfile{31-LMEresiduals.tex}
+
+\end{document}

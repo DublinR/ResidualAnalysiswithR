@@ -1,11 +1,16 @@
-Extract Model Residuals
+
+\documentclass[residuals.tex]{subfiles}
+\begin{document}
+	
+\newpage
+\subsection{Extract Model Residuals}
 
 % =========================================================%
 
 Description
-residuals is a generic function which extracts model residuals from objects returned by modeling functions. 
+\texttt{residuals} is a generic function which extracts model residuals from objects returned by modeling functions. 
 
-The abbreviated form resid is an alias for residuals. It is intended to encourage users to access object components through an accessor function rather than by directly referencing an object slot. 
+The abbreviated form \texttt{resid} is an alias for residuals. It is intended to encourage users to access object components through an accessor function rather than by directly referencing an object slot. 
 
 All object classes which are returned by model fitting functions should provide a residuals method. (Note that the method is for residuals and not resid.) 
 

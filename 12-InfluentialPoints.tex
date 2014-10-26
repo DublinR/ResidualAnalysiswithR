@@ -1,10 +1,13 @@
-Influential Points in Regression
+\documentclass[residuals.tex]{subfiles}
+\begin{document}
+	
+\section{Influential Points in Regression}
 % - http://stattrek.com/regression/influential-points.aspx
  
 
 Sometimes in regression analysis, a few data points have disproportionate effects on the slope of the regression equation. In this lesson, we describe how to identify those influential points.
 
-Outliers
+\subsection{Outliers}
 
 Data points that diverge in a big way from the overall pattern are called outliers. There are four ways that a data point might be considered an outlier.
 %---------------------------------------------------------%
@@ -17,88 +20,42 @@ Data points that diverge in a big way from the overall pattern are called outlie
 \end{itemize}
 %---------------------------------------------------------%
 
+% Extreme X value
+% Extreme Y value
+% Extreme X and Y 
+% Distant data point
 
-
-
-Extreme X value
-
-Extreme Y value
-
-
-
-
-
-
-
-
-
-Extreme X and Y
-
-Distant data point
-
-
-
-
-
-
-
-
-Influential Points
+\subsection{Influential Points}
 
 An influential point is an outlier that greatly affects the slope of the regression line. One way to test the influence of an outlier is to compute the regression equation with and without the outlier.
 
 This type of analysis is illustrated below. The scatter plots are identical, except that the plot on the right includes an outlier. The slope is flatter when the outlier is present (-3.32 vs. -4.10), so this outlier would be considered an influential point.
 
+\subsection{Without Outlier}
 
+% With Outlier
 
-Without Outlier
-
-
-With Outlier
-
-
-
-
-
-
-
-
-
-
- Regression equation: ŷ = 104.78 - 4.10x
- Coefficient of determination: R2 = 0.94 
-
-
-Regression equation: ŷ = 97.51 - 3.32x
- Coefficient of determination: R2 = 0.55 
-
+\begin{itemize}
+\item Regression equation: $\hat{y} = 104.78 - 4.10x$
+\item Coefficient of determination: $R^2 = 0.94$ 
+\end{itemize}
+\begin{itemize}
+\item Regression equation: $\hat{y} = 97.51 - 3.32x$
+\item Coefficient of determination: $R^2 = 0.55$ 
+\end{itemize}
 
 The charts below compare regression statistics for another data set with and without an outlier. Here, the chart on the right has a single outlier, located at the high end of the X axis (where x = 24). As a result of that single outlier, the slope of the regression line changes greatly, from -2.5 to -1.6; so the outlier would be considered an influential point.
 
+% Without Outlier
+% With Outlier
 
+% Regression equation: ŷ = 92.54 - 2.5x
+% Slope: b0 = -2.5
+% Coefficient of determination: R2 = 0.46 
 
-Without Outlier
-
-
-With Outlier
-
-
-
-
-
-
-
-
-
-
- Regression equation: ŷ = 92.54 - 2.5x
- Slope: b0 = -2.5
- Coefficient of determination: R2 = 0.46 
-
-
-Regression equation: ŷ = 87.59 - 1.6x
- Slope: b0 = -1.6
- Coefficient of determination: R2 = 0.52 
+% Regression equation: ŷ = 87.59 - 1.6x
+% Slope: b0 = -1.6
+% Coefficient of determination: R2 = 0.52 
 
 
 Sometimes, an influential point will cause the coefficient of determination to be bigger; sometimes, smaller. In the first example above, the coefficient of determination is smaller when the influential point is present (0.94 vs. 0.55). In the second example, it is bigger (0.46 vs. 0.52).
@@ -107,25 +64,27 @@ If your data set includes an influential point, here are some things to consider
 
 %--------------------------------------------------------------------------------------%
 
-■An influential point may represent bad data, possibly the result of measurement error. If possible, check the validity of the data point.
+\begin{itemize}
+\item An influential point may represent bad data, possibly the result of measurement error. If possible, check the validity of the data point.
 
+\item Compare the decisions that would be made based on regression equations defined with and without the influential point. If the equations lead to contrary decisions, use caution.
 
-■Compare the decisions that would be made based on regression equations defined with and without the influential point. If the equations lead to contrary decisions, use caution.
-
-Test Your Understanding of This Lesson
-
-In the context of regression analysis, which of the following statements are true?
-
- I. When the data set includes an influential point, the data set is nonlinear. 
-II. Influential points always reduce the coefficient of determination. 
-III. All outliers are influential data points. 
-
-(A) I only 
-(B) II only 
-(C) III only 
-(D) All of the above 
-(E) None of the above 
-
-Solution
-
-The correct answer is (E). Data sets with influential points can be linear or nonlinear. In this lesson, we went over an example in which an influential point increased the coefficient of determination. With respect to regression, outliers are influential only if they have a big effect on the regression equation. Sometimes, outliers do not have big effects. For example, when the data set is very large, a single outlier may not have a big effect on the regression equation.
+\end{itemize}
+%Test Your Understanding of This Lesson
+%
+%In the context of regression analysis, which of the following statements are true?
+%
+% I. When the data set includes an influential point, the data set is nonlinear. 
+%II. Influential points always reduce the coefficient of determination. 
+%III. All outliers are influential data points. 
+%
+%(A) I only 
+%(B) II only 
+%(C) III only 
+%(D) All of the above 
+%(E) None of the above 
+%
+%Solution
+%
+%The correct answer is (E). Data sets with influential points can be linear or nonlinear. In this lesson, we went over an example in which an influential point increased the coefficient of determination. With respect to regression, outliers are influential only if they have a big effect on the regression equation. Sometimes, outliers do not have big effects. For example, when the data set is very large, a single outlier may not have a big effect on the regression equation.
+\end{document}

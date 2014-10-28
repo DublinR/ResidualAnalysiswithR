@@ -1,6 +1,22 @@
 \documentclass[residuals.tex]{subfiles}
 \begin{document}
-	
+
+\subsection{Cook's Distance}
+% Interpretation
+% http://stats.stackexchange.com/questions/22161/how-to-read-cooks-distance-plots %
+Some texts tell you that points for which Cook's distance is higher than 1 are to be considered as influential. Other texts give you a threshold of $4/N$ or $4/(N−k−1)$, where N is the number of observations and k the number of explanatory variables. In your case the latter formula should yield a threshold around 0.1 .
+
+John Fox (1), in his booklet on regression diagnostics is rather cautious when it comes to giving numerical thresholds. He advises the use of graphics and to examine in closer details the points with "values of D that are substantially larger than the rest". According to Fox, thresholds should just be used to enhance graphical displays.
+
+In your case the observations 7 and 16 could be considered as influential. Well, I would at least have a closer look at them. The observation 29 is not substantially different from a couple of other observations.
+
+(1) Fox, John. (1991). Regression Diagnostics: An Introduction. Sage Publications.
+
+\subsection{Interpreting Cook's Distance}
+A common rule of thumb is that an observation with a value of Cook's D over 1.0 has too much influence. As with all rules of thumb, this rule should be applied judiciously and not thoughtlessly.
+
+
+\newpage	
 	Purpose
 	Cook's distance is useful for identifying outliers in the X values (observations for predictor variables). It also shows the influence of each observation on the fitted response values. An observation with Cook's distance larger than three times the mean Cook's distance might be an outlier.
 	

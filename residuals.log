@@ -1,7 +1,7 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.10.11)  26 OCT 2014 11:58
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.10.12)  28 OCT 2014 23:41
 entering extended mode
 **residuals.tex
-("C:\Users\Computer 7\Documents\GitHub\ResidualAnalysiswithR\residuals.tex"
+(C:\Users\Kevin\Documents\GitHub\ResidualAnalysiswithR\residuals.tex
 LaTeX2e <2011/06/27>
 Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
 abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
@@ -30,7 +30,7 @@ File: size10.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
 )
-("C:\Users\Computer 7\AppData\Roaming\MiKTeX\2.9\tex\latex\framed\framed.sty"
+(C:\Users\Kevin\AppData\Roaming\MiKTeX\2.9\tex\latex\framed\framed.sty
 Package: framed 2011/10/22 v 0.96: framed or shaded text with page breaks
 \OuterFrameSep=\skip43
 \fb@frw=\dimen103
@@ -138,31 +138,30 @@ Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 \Gin@req@height=\dimen116
 \Gin@req@width=\dimen117
 )
-("C:\Users\Computer 7\AppData\Roaming\MiKTeX\2.9\tex\latex\subfiles\subfiles.st
-y"
+(C:\Users\Kevin\AppData\Roaming\MiKTeX\2.9\tex\latex\subfiles\subfiles.sty
 Package: subfiles 2012/05/23 Federico Garcia
- ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tools\verbatim.sty"
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tools\verbatim.sty"
 Package: verbatim 2003/08/22 v1.5q LaTeX2e package for verbatim enhancements
 \every@verbatim=\toks20
 \verbatim@line=\toks21
 \verbatim@in@stream=\read1
 ))
-("C:\Users\Computer 7\Documents\GitHub\ResidualAnalysiswithR\residuals.aux")
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
+(C:\Users\Kevin\Documents\GitHub\ResidualAnalysiswithR\residuals.aux)
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
 
-("C:\Users\Computer 7\AppData\Roaming\MiKTeX\2.9\tex\context\base\supp-pdf.mkii
-"
+(C:\Users\Kevin\AppData\Roaming\MiKTeX\2.9\tex\context\base\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count100
 \scratchdimen=\dimen118
@@ -176,147 +175,292 @@ LaTeX Font Info:    ... okay on input line 13.
 \makeMPintoPDFobject=\count105
 \everyMPtoPDFconversion=\toks23
 )
-("C:\Users\Computer 7\Documents\GitHub\ResidualAnalysiswithR\12-InfluentialPoin
-ts.tex"
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 16.
- ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\omscmr.fd"
+(C:\Users\Kevin\Documents\GitHub\ResidualAnalysiswithR\00-LinearRegression.tex
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 8.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\omscmr.fd"
 File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 16.
-LaTeX Font Info:    Try loading font information for U+msa on input line 39.
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <14.4> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 8.
 
+<resids1.jpg, id=1, 433.62pt x 289.08pt>
+File: resids1.jpg Graphic file (type jpg)
+ <use resids1.jpg>
+Package pdftex.def Info: resids1.jpg used on input line 20.
+(pdftex.def)             Requested size: 422.99713pt x 282.01285pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+LaTeX Font Info:    Try loading font information for U+msa on input line 26.
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 39.
+LaTeX Font Info:    Try loading font information for U+msb on input line 26.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [1
 
-{C:/Users/Computer 7/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]) [2]
-("C:\Users\Computer 7\Documents\GitHub\ResidualAnalysiswithR\14-cooksD-leverage
-.tex"
+{C:/Users/Kevin/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}] [2 <C:/User
+s/Kevin/Documents/GitHub/ResidualAnalysiswithR/resids1.jpg>] [3])
+(C:\Users\Kevin\Documents\GitHub\ResidualAnalysiswithR\00-mtcarsExample.tex
+[4] [5]
+Missing character: There is no â in font cmtt12!
+Missing character: There is no € in font cmtt12!
+Missing character: There is no ˜ in font cmtt12!
+Missing character: There is no â in font cmtt12!
+Missing character: There is no € in font cmtt12!
+Missing character: There is no ™ in font cmtt12!
+Missing character: There is no â in font cmtt12!
+Missing character: There is no € in font cmtt12!
+Missing character: There is no ˜ in font cmtt12!
+Missing character: There is no â in font cmtt12!
+Missing character: There is no € in font cmtt12!
+Missing character: There is no ™ in font cmtt12!
+Missing character: There is no â in font cmtt12!
+Missing character: There is no € in font cmtt12!
+Missing character: There is no ˜ in font cmtt12!
+Missing character: There is no â in font cmtt12!
+Missing character: There is no € in font cmtt12!
+Missing character: There is no ™ in font cmtt12!
+Missing character: There is no â in font cmtt12!
+Missing character: There is no € in font cmtt12!
+Missing character: There is no ˜ in font cmtt12!
+Missing character: There is no â in font cmtt12!
+Missing character: There is no € in font cmtt12!
+Missing character: There is no ™ in font cmtt12!
+Missing character: There is no â in font cmtt12!
+Missing character: There is no € in font cmtt12!
+Missing character: There is no ˜ in font cmtt12!
+Missing character: There is no â in font cmtt12!
+Missing character: There is no € in font cmtt12!
+Missing character: There is no ™ in font cmtt12!
+ [6] <screenshot1.png, id=32, 1371.1225pt x 770.88pt>
+File: screenshot1.png Graphic file (type png)
+
+<use screenshot1.png>
+Package pdftex.def Info: screenshot1.png used on input line 65.
+(pdftex.def)             Requested size: 422.99713pt x 237.81758pt.
+ [7 <C:/Users/Kevin/Documents/GitHub/ResidualAnalysiswithR/screenshot1.png>])
+(C:\Users\Kevin\Documents\GitHub\ResidualAnalysiswithR\01-Definitions.tex
+[8] <homosked.png, id=40, 505.89pt x 505.13719pt>
+File: homosked.png Graphic file (type png)
+ <use homosked.png>
+Package pdftex.def Info: homosked.png used on input line 21.
+(pdftex.def)             Requested size: 282.00287pt x 281.58769pt.
+ [9 <C:/Users/Kevin/Documents/GitHub/ResidualAnalysiswithR/homosked.png>]
+<homosked2.png, id=44, 578.16pt x 867.24pt>
+File: homosked2.png Graphic file (type png)
+ <use homosked2.png>
+Package pdftex.def Info: homosked2.png used on input line 30.
+(pdftex.def)             Requested size: 328.99857pt x 493.49826pt.
+ [10 <C:/Users/Kevin/Documents/GitHub/ResidualAnalysiswithR/homosked2.png>] [11
+] [12]
+<plots2.png, id=56, 674.52pt x 674.52pt>
+File: plots2.png Graphic file (type png)
+ <use plots2.png>
+Package pdftex.def Info: plots2.png used on input line 75.
+(pdftex.def)             Requested size: 470.0pt x 470.00969pt.
+ [13 <C:/Users/Kevin/Documents/GitHub/ResidualAnalysiswithR/plots2.png>]
+<plots3.png, id=62, 674.52pt x 674.52pt>
+File: plots3.png Graphic file (type png)
+ <use plots3.png>
+Package pdftex.def Info: plots3.png used on input line 82.
+(pdftex.def)             Requested size: 470.0pt x 470.00969pt.
+ [14 <C:/Users/Kevin/Documents/GitHub/ResidualAnalysiswithR/plots3.png>])
+(C:\Users\Kevin\Documents\GitHub\ResidualAnalysiswithR\00-mtcarsDiagnosticPlots
+.tex [15]
+LaTeX Font Info:    Font shape `OT1/cmtt/bx/n' in size <14.4> not available
+(Font)              Font shape `OT1/cmtt/m/n' tried instead on input line 7.
+ [16]
+Missing character: There is no â in font cmr12!
+Missing character: There is no € in font cmr12!
+Missing character: There is no ˜ in font cmr12!
+Missing character: There is no â in font cmr12!
+Missing character: There is no € in font cmr12!
+Missing character: There is no ™ in font cmr12!
+Missing character: There is no â in font cmr12!
+Missing character: There is no € in font cmr12!
+Missing character: There is no ˜ in font cmr12!
+Missing character: There is no â in font cmr12!
+Missing character: There is no € in font cmr12!
+Missing character: There is no ™ in font cmr12!
+ <./mtcarsDiagPlot1.jpeg, id=73, 1027.84pt x 484.81125pt>
+File: ./mtcarsDiagPlot1.jpeg Graphic file (type jpg)
+
+<use ./mtcarsDiagPlot1.jpeg>
+Package pdftex.def Info: ./mtcarsDiagPlot1.jpeg used on input line 46.
+(pdftex.def)             Requested size: 446.49857pt x 210.60268pt.
+ [17 <C:/Users/Kevin/Documents/GitHub/ResidualAnalysiswithR/mtcarsDiagPlot1.jpe
+g>]
+<./mtcarsDiagPlot2.jpeg, id=77, 1027.84pt x 484.81125pt>
+File: ./mtcarsDiagPlot2.jpeg Graphic file (type jpg)
+
+<use ./mtcarsDiagPlot2.jpeg>
+Package pdftex.def Info: ./mtcarsDiagPlot2.jpeg used on input line 55.
+(pdftex.def)             Requested size: 446.49857pt x 210.60268pt.
+
+<./mtcarsDiagPlot3.jpeg, id=78, 1027.84pt x 484.81125pt>
+File: ./mtcarsDiagPlot3.jpeg Graphic file (type jpg)
+
+<use ./mtcarsDiagPlot3.jpeg>
+Package pdftex.def Info: ./mtcarsDiagPlot3.jpeg used on input line 64.
+(pdftex.def)             Requested size: 446.49857pt x 210.60268pt.
+ [18 <C:/Users/Kevin/Documents/GitHub/ResidualAnalysiswithR/mtcarsDiagPlot2.jpe
+g> <C:/Users/Kevin/Documents/GitHub/ResidualAnalysiswithR/mtcarsDiagPlot3.jpeg>
+]
+<./mtcarsDiagPlot4.jpeg, id=82, 1027.84pt x 484.81125pt>
+File: ./mtcarsDiagPlot4.jpeg Graphic file (type jpg)
+
+<use ./mtcarsDiagPlot4.jpeg>
+Package pdftex.def Info: ./mtcarsDiagPlot4.jpeg used on input line 73.
+(pdftex.def)             Requested size: 446.49857pt x 210.60268pt.
+
+<./mtcarsDiagPlot5.jpeg, id=83, 1027.84pt x 484.81125pt>
+File: ./mtcarsDiagPlot5.jpeg Graphic file (type jpg)
+
+<use ./mtcarsDiagPlot5.jpeg>
+Package pdftex.def Info: ./mtcarsDiagPlot5.jpeg used on input line 82.
+(pdftex.def)             Requested size: 422.99713pt x 199.52106pt.
+ [19 <C:/Users/Kevin/Documents/GitHub/ResidualAnalysiswithR/mtcarsDiagPlot4.jpe
+g> <C:/Users/Kevin/Documents/GitHub/ResidualAnalysiswithR/mtcarsDiagPlot5.jpeg>
+]
+<./mtcarsDiagPlot6.jpeg, id=88, 1027.84pt x 484.81125pt>
+File: ./mtcarsDiagPlot6.jpeg Graphic file (type jpg)
+
+<use ./mtcarsDiagPlot6.jpeg>
+Package pdftex.def Info: ./mtcarsDiagPlot6.jpeg used on input line 91.
+(pdftex.def)             Requested size: 446.49857pt x 210.60268pt.
+)
+(C:\Users\Kevin\Documents\GitHub\ResidualAnalysiswithR\01-Outliers.tex [20 <C:/
+Users/Kevin/Documents/GitHub/ResidualAnalysiswithR/mtcarsDiagPlot6.jpeg>]
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 11.
+)
+(C:\Users\Kevin\Documents\GitHub\ResidualAnalysiswithR\05-cooksdistance.tex
+Missing character: There is no â in font cmr12!
+Missing character: There is no ˆ in font cmr12!
+Missing character: There is no ’ in font cmr12!
+Missing character: There is no â in font cmr12!
+Missing character: There is no ˆ in font cmr12!
+Missing character: There is no ’ in font cmr12!
+
+[21]
+Missing character: There is no â in font cmr12!
+Missing character: There is no ˆ in font cmr12!
+Missing character: There is no ’ in font cmr12!
+Missing character: There is no â in font cmr12!
+Missing character: There is no ˆ in font cmr12!
+Missing character: There is no ’ in font cmr12!
+Missing character: There is no Î in font cmr12!
+Missing character: There is no ² in font cmr12!
+Missing character: There is no Î in font cmr12!
+Missing character: There is no ² in font cmr12!
+ [22]
+Overfull \hbox (9.963pt too wide) in paragraph at lines 64--67
+[]\OT1/cmr/m/n/12 where: $\OML/cmm/m/it/12 h[] $ \OT1/cmr/m/n/12 is the lever-a
+ge, i.e., the i-th di-ag-o-nal el-e-ment of the hat ma-trix $\OT1/cmr/bx/n/12 X
+ [][] X[]\OT1/cmr/m/n/12 ; \OML/cmm/m/it/12 e[] $
+ []
+
+[23]
+Overfull \hbox (28.70874pt too wide) in paragraph at lines 87--94
+\OT1/cmr/m/n/12 mdl.Diagnostics.CooksDistance Plot the Cook's dis-tance val-ues
+ us-ing plot-Di-ag-nos-tics(mdl,'cookd')
+ []
+
+)
+(C:\Users\Kevin\Documents\GitHub\ResidualAnalysiswithR\12-InfluentialPoints.tex
+[24]
+
+Package amsmath Warning: Foreign command \over;
+(amsmath)                \frac or \genfrac should be used instead
+(amsmath)                 on input line 52.
+
+[25] [26] [27] [28] [29]
+Missing character: There is no â in font cmr12!
+Missing character: There is no € in font cmr12!
+Missing character: There is no “ in font cmr12!
+Missing character: There is no â in font cmr12!
+Missing character: There is no € in font cmr12!
+Missing character: There is no “ in font cmr12!
+Missing character: There is no â in font cmr12!
+Missing character: There is no € in font cmr12!
+Missing character: There is no “ in font cmr12!
+Missing character: There is no â in font cmr12!
+Missing character: There is no € in font cmr12!
+Missing character: There is no “ in font cmr12!
+ [30]
+Missing character: There is no â in font cmbx12!
+Missing character: There is no € in font cmbx12!
+Missing character: There is no ™ in font cmbx12!
+Missing character: There is no â in font cmr12!
+Missing character: There is no € in font cmr12!
+Missing character: There is no “ in font cmr12!
+) [31]
+(C:\Users\Kevin\Documents\GitHub\ResidualAnalysiswithR\14-cooksD-leverage.tex
 Missing character: There is no â in font cmr12!
 Missing character: There is no ˆ in font cmr12!
 Missing character: There is no ‘ in font cmr12!
 Missing character: There is no â in font cmr12!
 Missing character: There is no ˆ in font cmr12!
 Missing character: There is no ’ in font cmr12!
- [3]) [4]
-("C:\Users\Computer 7\Documents\GitHub\ResidualAnalysiswithR\17-influencemeasur
-es.tex"
-Overfull \hbox (50.47517pt too wide) in paragraph at lines 16--16
-[]\OT1/cmtt/m/n/12 rstandard(model, infl = lm.influence(model, do.coef = FALSE)
-,[] 
+
+[32]) [33]
+(C:\Users\Kevin\Documents\GitHub\ResidualAnalysiswithR\17-influencemeasures.tex
+[34]
+Overfull \hbox (357.45041pt too wide) in paragraph at lines 86--86
+[]\OT1/cmtt/m/n/12 infl influence structure as returned by lm.influence or infl
+uence (the latter only for the glm method of rstudent and cooks.distance).[] 
  []
 
-
-Overfull \hbox (50.47517pt too wide) in paragraph at lines 17--17
-[]          \OT1/cmtt/m/n/12 sd = sqrt(deviance(model)/df.residual(model)), ...
-)[] 
+[35] [36]) [37]
+(C:\Users\Kevin\Documents\GitHub\ResidualAnalysiswithR\31-LMEresiduals.tex
+Overfull \hbox (8.4925pt too wide) in paragraph at lines 8--9
+\OT1/cmr/m/n/12 sponse vec-tor (and di-vid-ing by the es-ti-mated within-group 
+stan-dard er-ror, if \OT1/cmtt/m/n/12 type="pearson"\OT1/cmr/m/n/12 ). 
  []
 
-
-Overfull \hbox (31.95016pt too wide) in paragraph at lines 19--19
-[]\OT1/cmtt/m/n/12 rstandard(model, infl = influence(model, do.coef = FALSE),[]
- 
- []
-
-
-Overfull \hbox (44.30017pt too wide) in paragraph at lines 24--24
-[]\OT1/cmtt/m/n/12 rstudent(model, infl = lm.influence(model, do.coef = FALSE),
-[] 
- []
-
-
-Overfull \hbox (56.65018pt too wide) in paragraph at lines 27--27
-[]\OT1/cmtt/m/n/12 rstudent(model, infl = influence(model, do.coef = FALSE), ..
-.)[] 
- []
-
-
-Overfull \hbox (56.65018pt too wide) in paragraph at lines 33--33
-[]\OT1/cmtt/m/n/12 dfbeta(model, infl = lm.influence(model, do.coef = TRUE), ..
-.)[] 
- []
-
-
-Overfull \hbox (62.82518pt too wide) in paragraph at lines 37--37
-[]\OT1/cmtt/m/n/12 dfbetas(model, infl = lm.influence(model, do.coef = TRUE), .
-..)[] 
- []
-
-
-Overfull \hbox (44.30017pt too wide) in paragraph at lines 39--39
-[]\OT1/cmtt/m/n/12 covratio(model, infl = lm.influence(model, do.coef = FALSE),
-[] 
- []
-
-
-Overfull \hbox (81.35019pt too wide) in paragraph at lines 44--44
-[]\OT1/cmtt/m/n/12 cooks.distance(model, infl = lm.influence(model, do.coef = F
-ALSE),[] 
- []
-
-
-Overfull \hbox (50.47517pt too wide) in paragraph at lines 46--46
-[]               \OT1/cmtt/m/n/12 sd = sqrt(deviance(model)/df.residual(model))
-,[] 
- []
-
-
-Overfull \hbox (62.82518pt too wide) in paragraph at lines 49--49
-[]\OT1/cmtt/m/n/12 cooks.distance(model, infl = influence(model, do.coef = FALS
-E),[] 
- []
-
-
-Overfull \hbox (7.25015pt too wide) in paragraph at lines 51--51
-[]               \OT1/cmtt/m/n/12 dispersion = summary(model)$dispersion,[] 
- []
-
-
-Overfull \hbox (81.35019pt too wide) in paragraph at lines 56--56
-[]\OT1/cmtt/m/n/12 hatvalues(model, infl = lm.influence(model, do.coef = FALSE)
-, ...)[] 
- []
-
-[5] [6]) [7]
-("C:\Users\Computer 7\Documents\GitHub\ResidualAnalysiswithR\31-LMEresiduals.te
-x" [8]
 Missing character: There is no â in font cmr12!
 Missing character: There is no ˆ in font cmr12!
 Missing character: There is no ’ in font cmr12!
 Missing character: There is no â in font cmr12!
 Missing character: There is no ˆ in font cmr12!
 Missing character: There is no ’ in font cmr12!
+[38]
 Missing character: There is no â in font cmr12!
 Missing character: There is no ˆ in font cmr12!
 Missing character: There is no ’ in font cmr12!
-) [9]
-("C:\Users\Computer 7\Documents\GitHub\ResidualAnalysiswithR\residuals.aux") ) 
+) [39] (C:\Users\Kevin\Documents\GitHub\ResidualAnalysiswithR\residuals.aux) ) 
 Here is how much of TeX's memory you used:
- 2129 strings out of 493921
- 27717 string characters out of 3144860
- 81951 words of memory out of 3000000
- 5405 multiletter control sequences out of 15000+200000
- 9366 words of font info for 36 fonts, out of 3000000 for 9000
+ 2249 strings out of 493921
+ 30349 string characters out of 3144875
+ 81056 words of memory out of 3000000
+ 5485 multiletter control sequences out of 15000+200000
+ 13639 words of font info for 53 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 27i,6n,26p,529b,227s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 27i,8n,26p,679b,337s stack positions out of 5000i,500n,10000p,200000b,50000s
 <
-C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:
-/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/P
-rogram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Prog
-ram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program
- Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Fi
-les (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files 
-(x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files (x
-86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on residuals.pdf (9 pages, 111486 bytes).
+C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:
+/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/P
+rogram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbxti10.pfb><C:/P
+rogram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Pro
+gram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmitt10.pfb><C:/Prog
+ram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Progra
+m Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program 
+Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Fil
+es (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files 
+(x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files (x8
+6)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files (x86)/M
+iKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files (x86)/MiK
+TeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files (x86)/MiKTeX
+ 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Program Files (x86)/MiKTeX 2
+.9/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
+Output written on residuals.pdf (39 pages, 910868 bytes).
 PDF statistics:
- 64 PDF objects out of 1000 (max. 8388607)
+ 204 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 61 words of extra memory for PDF output out of 10000 (max. 10000000)
 

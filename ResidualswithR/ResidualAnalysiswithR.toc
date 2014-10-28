@@ -1,0 +1,76 @@
+\contentsline {section}{\numberline {1}Model Validation}{5}
+\contentsline {subsection}{\numberline {1.1}Why Use Residuals?}{5}
+\contentsline {section}{\numberline {2}Introduction to Residuals}{6}
+\contentsline {subsection}{\numberline {2.1}Residual Plots}{6}
+\contentsline {subsubsection}{\numberline {2.1.1}Autocorrelation}{8}
+\contentsline {subsubsection}{\numberline {2.1.2}Durbin-Watson Test for Autocorrelated Errors}{9}
+\contentsline {section}{\numberline {3}Standardization and Studentization}{10}
+\contentsline {subsection}{\numberline {3.1}Standardization}{10}
+\contentsline {subsection}{\numberline {3.2}Studentization}{10}
+\contentsline {subsection}{\numberline {3.3}Internal and External Studentization}{10}
+\contentsline {subsection}{\numberline {3.4}Computation}{10}
+\contentsline {subsection}{\numberline {3.5}Pearson Residual}{11}
+\contentsline {section}{\numberline {4}Leverage and Influence}{12}
+\contentsline {subsection}{\numberline {4.1}Influence}{12}
+\contentsline {subsection}{\numberline {4.2}Interpreting Cook's Distance}{12}
+\contentsline {subsection}{\numberline {4.3}Leverage}{12}
+\contentsline {subsubsection}{\numberline {4.3.1}Calculation of Leverage (h)}{13}
+\contentsline {subsection}{\numberline {4.4}Summary of Influence Statistics}{13}
+\contentsline {subsection}{\numberline {4.5}Influential Observations : DFBeta and DFBetas}{14}
+\contentsline {subsection}{\numberline {4.6}Cook's Distance}{14}
+\contentsline {subsection}{\numberline {4.7}Leverage}{15}
+\contentsline {section}{\numberline {5}Regression Diagnostics with \texttt {R} }{16}
+\contentsline {subsection}{\numberline {5.1}Outliers}{16}
+\contentsline {subsection}{\numberline {5.2}Added Variable Plots}{16}
+\contentsline {subsection}{\numberline {5.3}Non-constant Error Variance}{17}
+\contentsline {subsection}{\numberline {5.4}Influential Observations}{18}
+\contentsline {section}{\numberline {6}Diagnostic Plots for Linear Models with \texttt {R}}{19}
+\contentsline {subsection}{\numberline {6.1}Description}{19}
+\contentsline {subsubsection}{\numberline {6.1.1}Leverage}{20}
+\contentsline {subsection}{\numberline {6.2}Diagnostic Plots for LMs}{22}
+\contentsline {subsubsection}{\numberline {6.2.1}Plot 3 : Normal Probability Plot}{23}
+\contentsline {subsubsection}{\numberline {6.2.2}Plot 5 : Cook's Distance}{24}
+\contentsline {subsubsection}{\numberline {6.2.3}Plot 6 : Cook's Distance vs Leverage}{25}
+\contentsline {section}{\numberline {7}Case Deletion}{26}
+\contentsline {subsection}{\numberline {7.1}Case Deletion Diagnostic Statistics}{26}
+\contentsline {subsection}{\numberline {7.2}Matrix Notation for Case deletion notation}{26}
+\contentsline {subsection}{\numberline {7.3}Partitioning Matrices}{26}
+\contentsline {subsection}{\numberline {7.4}CPJ's Three Propositions}{27}
+\contentsline {subsubsection}{\numberline {7.4.1}Proposition 1}{27}
+\contentsline {subsection}{\numberline {7.5}Proposition 2}{27}
+\contentsline {subsection}{\numberline {7.6}Proposition 3}{27}
+\contentsline {section}{\numberline {8}Measures of Influence}{28}
+\contentsline {subsection}{\numberline {8.1}Cook's Distance}{28}
+\contentsline {subsubsection}{\numberline {8.1.1}Computation}{28}
+\contentsline {subsubsection}{\numberline {8.1.2}DFBETA}{29}
+\contentsline {subsubsection}{\numberline {8.1.3}DFFITS}{30}
+\contentsline {subsubsection}{\numberline {8.1.4}PRESS}{30}
+\contentsline {subsubsection}{\numberline {8.1.5}DFBETA}{30}
+\contentsline {section}{\numberline {9}Robust Regression (Optional Section)}{31}
+\contentsline {subsection}{\numberline {9.1}The stackloss data set}{33}
+\contentsline {subsection}{\numberline {9.2}Fitting a robust model (\texttt {rlm}}{33}
+\contentsline {subsection}{\numberline {9.3}Using Other \textit {Psi} Operators}{34}
+\contentsline {subsection}{\numberline {9.4}Implementation of Robust Regression}{35}
+\contentsline {subsubsection}{\numberline {9.4.1}Huber Weighting}{37}
+\contentsline {subsubsection}{\numberline {9.4.2}Implementation with Bisquare Weighting}{39}
+\contentsline {subsubsection}{\numberline {9.4.3}Conclusion}{41}
+\contentsline {section}{\numberline {10}Residual Analysis for GLMs (Optional Section)}{42}
+\contentsline {subsection}{\numberline {10.1}Pearson and Deviance Residuals}{42}
+\contentsline {subsection}{\numberline {10.2}Diagnostics for Logistic Regression}{44}
+\contentsline {subsection}{\numberline {10.3}Diagnostics for Poisson Regression}{44}
+\contentsline {section}{\numberline {11}Residual Analysis for LME Models}{45}
+\contentsline {subsection}{\numberline {11.1}Introduction}{45}
+\contentsline {subsection}{\numberline {11.2}Zewotir Measures of Influence in LME Models}{45}
+\contentsline {subsection}{\numberline {11.3}Cook's Distance applied to LMEs}{46}
+\contentsline {subsection}{\numberline {11.4}Iterative and non-iterative influence analysis for LMEs}{46}
+\contentsline {subsection}{\numberline {11.5}Iterative Influence Analysis}{46}
+\contentsline {section}{\numberline {12}Measures 2}{48}
+\contentsline {subsection}{\numberline {12.1}Cook's Distance}{48}
+\contentsline {subsection}{\numberline {12.2}Variance Ratio}{48}
+\contentsline {subsection}{\numberline {12.3}Cook-Weisberg statistic}{48}
+\contentsline {subsection}{\numberline {12.4}Andrews-Pregibon statistic}{48}
+\contentsline {subsection}{\numberline {12.5}Likelihood Distance}{48}
+\contentsline {subsection}{\numberline {12.6}Diagnostics for LMEs with \texttt {R}}{49}
+\contentsline {section}{\numberline {13}Case-Deletion Diagnostics for LMEs The CPJ Paper}{50}
+\contentsline {subsection}{\numberline {13.1}Case-Deletion results for Variance components}{50}
+\contentsline {subsection}{\numberline {13.2}CPJ Notation}{50}

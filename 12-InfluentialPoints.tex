@@ -4,7 +4,28 @@
 
 \section{Regression Deletion Diagnostics}
 
-This suite of functions can be used to compute some of the regression (leave-one-out deletion) diagnostics for linear and generalized linear models discussed in Belsley, Kuh and Welsch (1980), Cook and Weisberg (1982), etc. 
+This suite of functions can be used to compute some of the regression (leave-one-out deletion) diagnostics for linear and generalized linear models discussed in Belsley, Kuh and Welsch (1980), Cook and Weisberg (1982), etc.
+
+\subsection*{Details}
+\begin{itemize}
+	\item The primary high-level function is \texttt{influence.measures} which produces a class "infl" object tabular display showing the DFBETAS for each model variable, DFFITS, covariance ratios, Cook's distances and the diagonal elements of the hat matrix. Cases which are influential with respect to any of these measures are marked with an asterisk. 
+	
+	\item The functions \texttt{dfbetas}, \texttt{dffits}, \texttt{covratio} and \texttt{cooks.distance} provide direct access to the corresponding diagnostic quantities. 
+	
+	\item Functions \texttt{rstandard} and \texttt{rstudent} give the standardized and Studentized residuals respectively. 
+	
+	\item (These functions re-normalize the residuals to have unit variance, using an overall and leave-one-out measure of the error variance respectively.) 
+	
+	\item Values for generalized linear models are approximations, as described in Williams (1987) (except that Cook's distances are scaled as F rather than as chi-square values). The approximations can be poor when some cases have large influence. 
+	
+	\item The optional i\texttt{nfl}, \texttt{res} and \texttt{sd} arguments are there to encourage the use of these direct access functions, in situations where, e.g., the underlying basic influence measures (from \texttt{lm.influence} or the generic influence) are already available. 
+	
+	\item Note that cases with \texttt{weights == 0} are dropped from all these functions, but that if a linear model has been fitted with \texttt{na.action = na.exclude}, suitable values are filled in for the cases excluded during fitting. 
+	
+	\item 
+	The function \texttt{hat()} exists mainly for S (version 2) compatibility; we recommend using \texttt{hatvalues()} instead. 
+\end{itemize}
+ 
 
 \begin{framed}
 	\begin{verbatim}
@@ -12,9 +33,11 @@ This suite of functions can be used to compute some of the regression (leave-one
 	influence.measures(model)
 	
 	rstandard(model, ...)
+	
 	## S3 method for class 'lm'
 	rstandard(model, infl = lm.influence(model, do.coef = FALSE),
 	sd = sqrt(deviance(model)/df.residual(model)), ...)
+	
 	## S3 method for class 'glm'
 	rstandard(model, infl = influence(model, do.coef = FALSE),
 	type = c("deviance", "pearson"), ...)
@@ -25,9 +48,11 @@ This suite of functions can be used to compute some of the regression (leave-one
 \begin{framed}
 	\begin{verbatim}
 	rstudent(model, ...)
+	
 	## S3 method for class 'lm'
 	rstudent(model, infl = lm.influence(model, do.coef = FALSE),
 	res = infl$wt.res, ...)
+	
 	## S3 method for class 'glm'
 	rstudent(model, infl = influence(model, do.coef = FALSE), ...)
 	
@@ -35,6 +60,34 @@ This suite of functions can be used to compute some of the regression (leave-one
 	\end{verbatim}
 \end{framed}
 \newpage
+
+
+\section{Standardized and Studentized Residuals}
+The standardized residual is the residual divided by its standard deviation. 
+ 
+Plot the standardized residual of the simple linear regression model of the data set faithful against the independent variable waiting.
+
+We apply the lm function to a formula that describes the variable eruptions by the variable waiting, and save the linear regression model in a new variable eruption.lm. Then we compute the standardized residual with the rstandard function.
+
+\begin{framed}
+\begin{verbatim}
+> eruption.lm = lm(eruptions ~ waiting, data=faithful) 
+> eruption.stdres = rstandard(eruption.lm) 
+\end{verbatim}
+\end{framed}
+We now plot the standardized residual against the observed values of the variable waiting.
+\begin{framed}
+\begin{verbatim}
+> plot(faithful$waiting, eruption.stdres, 
++     ylab="Standardized Residuals", 
++     xlab="Waiting Time", 
++     main="Old Faithful Eruptions") 
+> abline(0, 0)                  # the horizon
+\end{verbatim}
+\end{framed}
+
+
+%--------------------------------------------------- % 
 	\section{Leverage and Influence}
 	\subsection{Influence}
 	The influence of an observation can be thought of in terms of how much the predicted scores for other observations would differ if the observation in question were not included. 
@@ -104,8 +157,17 @@ This suite of functions can be used to compute some of the regression (leave-one
 	%Solution
 	%
 	%The correct answer is (E). Data sets with influential points can be linear or nonlinear. In this lesson, we went over an example in which an influential point increased the coefficient of determination. With respect to regression, outliers are influential only if they have a big effect on the regression equation. Sometimes, outliers do not have big effects. For example, when the data set is very large, a single outlier may not have a big effect on the regression equation.
-	
 	\subsection{Summary of Influence Statistics}
+	\subsection{rstudent}
+	The studentized residual RSTUDENT is estimated by $s(i)^2$ without the ith observation, not by $s^2$. For example,
+	
+	\[\mbox{RSTUDENT} = \frac{r_i}{s_{(i)} \sqrt{(1 - h_i)}} \]
+	Observations with RSTUDENT larger than 2 in absolute value may need some attention.
+	
+	
+	
+	
+	
 	\begin{itemize}
 		\item	\textbf{Studentized Residuals} – Residuals divided by their estimated standard errors (like t-statistics). Observations with values larger than 3 in absolute value are considered outliers.
 		\item	\textbf{Leverage Values (Hat Diag)} – Measure of how far an observation is from the others in terms of the levels of the independent variables (not the dependent variable). Observations with values larger than $2(k+1)/n$ are considered to be potentially highly influential, where k is the number of predictors and n is the sample size.
@@ -146,17 +208,29 @@ DFFITS is a statistical measured designed to a show how influential an observati
 	\widehat{y_{i(k)}} \over s_{(k)} \sqrt{h_{ii}}} \end{displaymath}
 
 
-\subsubsection{PRESS} %1.16.2
-The prediction residual sum of squares (PRESS) is an value associated with this calculation. When fitting linear models, PRESS can be used as a criterion for model selection, with smaller values indicating better model fits.
-\begin{equation}
-PRESS = \sum(y-y^{(k)})^2
-\end{equation}
+\subsubsection{COVRATIO}
+The COVRATIO statistic measures the change in 
+the determinant of the covariance matrix of the estimates by deleting the ith observation:
 
+\[ COVRATIO = \frac{det ( s^2_{(i)} (X_{(i)}'X_{(i)})^{-1} ) )}{ det ( s^2 (X'X)^{-1} ) }  \]
+%Belsley, Kuh, and Welsch suggest that observations with
 
-\begin{itemize}
-	\item $e_{-Q} = y_{Q} - x_{Q}\hat{\beta}^{-Q}$
-	\item $PRESS_{(U)} = y_{i} - x\hat{\beta}_{(U)}$
-\end{itemize}
+Observations with
+
+\[|{COVRATIO} - 1| \ge \frac{3k}{n}\]
+where k is the number of parameters in the model and n is the number of observations used to fit the model, are worth further investigation.
+
+%\subsubsection{PRESS} %1.16.2
+%The prediction residual sum of squares (PRESS) is an value associated with this calculation. When fitting linear models, PRESS can be used as a criterion for model selection, with smaller values indicating better model fits.
+%\begin{equation}
+%PRESS = \sum(y-y^{(k)})^2
+%\end{equation}
+%
+%
+%\begin{itemize}
+%	\item $e_{-Q} = y_{Q} - x_{Q}\hat{\beta}^{-Q}$
+%	\item $PRESS_{(U)} = y_{i} - x\hat{\beta}_{(U)}$
+%\end{itemize}
 
 
 %-------------------------------------------------------------- %
@@ -266,25 +340,6 @@ intercept should an intercept column be prepended to x?
 \newpage
 
 
-\subsection*{Details}
-\begin{itemize}
-	\item The primary high-level function is \texttt{influence.measures} which produces a class "infl" object tabular display showing the DFBETAS for each model variable, DFFITS, covariance ratios, Cook's distances and the diagonal elements of the hat matrix. Cases which are influential with respect to any of these measures are marked with an asterisk. 
-	
-	\item The functions \texttt{dfbetas}, \texttt{dffits}, \texttt{covratio} and \texttt{cooks.distance} provide direct access to the corresponding diagnostic quantities. 
-	
-	\item Functions \texttt{rstandard} and \texttt{rstudent} give the standardized and Studentized residuals respectively. 
-	
-	\item (These functions re-normalize the residuals to have unit variance, using an overall and leave-one-out measure of the error variance respectively.) 
-	
-	\item Values for generalized linear models are approximations, as described in Williams (1987) (except that Cook's distances are scaled as F rather than as chi-square values). The approximations can be poor when some cases have large influence. 
-	
-	\item The optional i\texttt{nfl}, \texttt{res} and \texttt{sd} arguments are there to encourage the use of these direct access functions, in situations where, e.g., the underlying basic influence measures (from \texttt{lm.influence} or the generic influence) are already available. 
-	
-	\item Note that cases with \texttt{weights == 0} are dropped from all these functions, but that if a linear model has been fitted with \texttt{na.action = na.exclude}, suitable values are filled in for the cases excluded during fitting. 
-	
-	\item 
-	The function \texttt{hat()} exists mainly for S (version 2) compatibility; we recommend using \texttt{hatvalues()} instead. 
-\end{itemize}
 
 
 \end{document}

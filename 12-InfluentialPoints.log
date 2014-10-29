@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.10.12)  28 OCT 2014 23:40
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.10.12)  29 OCT 2014 00:10
 entering extended mode
 **12-InfluentialPoints.tex
 
@@ -204,7 +204,18 @@ Package amsmath Warning: Foreign command \over;
 (amsmath)                \frac or \genfrac should be used instead
 (amsmath)                 on input line 52.
 
-[2] [3] [4] [5]
+[2] [3] <Screenshot2.png, id=20, 1371.1225pt x 770.88pt>
+File: Screenshot2.png Graphic file (type png)
+ <use Screenshot2.png>
+Package pdftex.def Info: Screenshot2.png used on input line 99.
+(pdftex.def)             Requested size: 517.00287pt x 290.67902pt.
+
+Overfull \hbox (47.00287pt too wide) in paragraph at lines 99--100
+ [][] 
+ []
+
+[4 <C:/Users/Kevin/Documents/GitHub/ResidualAnalysiswithR/Screenshot2.png>]
+[5]
 Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no “ in font cmr10!
@@ -227,13 +238,13 @@ Missing character: There is no “ in font cmr10!
 (C:\Users\Kevin\Documents\GitHub\ResidualAnalysiswithR\12-InfluentialPoints.aux
 ) ) 
 Here is how much of TeX's memory you used:
- 2118 strings out of 493921
- 27330 string characters out of 3144875
- 81049 words of memory out of 3000000
- 5405 multiletter control sequences out of 15000+200000
- 7476 words of font info for 29 fonts, out of 3000000 for 9000
+ 2128 strings out of 493921
+ 27472 string characters out of 3144875
+ 81057 words of memory out of 3000000
+ 5412 multiletter control sequences out of 15000+200000
+ 7644 words of font info for 30 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 36i,8n,28p,544b,143s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 36i,8n,28p,544b,229s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 ><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><
 C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:
@@ -242,10 +253,11 @@ rogram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Prog
 ram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program
  Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Fil
 es (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files
- (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
-Output written on 12-InfluentialPoints.pdf (6 pages, 127809 bytes).
+ (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Program Files (x
+86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
+Output written on 12-InfluentialPoints.pdf (6 pages, 222212 bytes).
 PDF statistics:
- 57 PDF objects out of 1000 (max. 8388607)
+ 62 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 6 words of extra memory for PDF output out of 10000 (max. 10000000)
 

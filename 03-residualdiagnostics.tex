@@ -5,9 +5,9 @@
 
 \section*{Regression Diagnostics}
 
-An excellent review of regression diagnostics is provided in John Fox's aptly named \textit{Overview of Regression Diagnostics}. 
+An excellent review of regression diagnostics is provided in  \textit{Overview of Regression Diagnostics}. 
 
-Dr. Fox's \textbf{\textit{car}} package provides advanced utilities for regression modeling.
+Dr. John Fox's \textbf{\textit{car}} package provides advanced utilities for regression modeling.
 
 \subsection{Alcohol and Tobacco Data}
 This example is for exposition only. We will ignore the fact that this may not be a great way of modeling the this particular set of data!
@@ -27,14 +27,14 @@ row.names = c("North", "Yorkshire", "Northeast",
 "Southeast", "Southwest", "Wales", 
 "Scotland", "N. Ireland"))
 
-# Assume that we are fitting a multiple linear regression
-# on the MTCARS data
-library(car)
-fit <- lm(mpg~disp+hp+wt+drat, data=mtcars)
 
 \end{verbatim}
 \end{framed}
 
+% # Assume that we are fitting a multiple linear regression
+% # on the MTCARS data
+% library(car)
+% fit <- lm(mpg~disp+hp+wt+drat, data=mtcars)
 
 \begin{framed}
 \begin{verbatim}
@@ -145,8 +145,7 @@ N. Ireland -4.732091           0.0014789     0.016268
 \end{verbatim}
 \end{framed}
 \noindent We can also use \texttt{R} to calculate Cook's distance. 
-Remember that generally we
-label any observation with Cook's distance greater than 1 as influential.
+%Remember that generally we label any observation with Cook's distance greater than 1 as influential.
 \begin{framed}
 \begin{verbatim}
 > cooks.distance(fit1)
@@ -196,24 +195,7 @@ details).
 Here we want to focus on three of the plots available through
 the command.
 
-\begin{itemize}
-\item The first one displays the residuals vs. the fitted values
- we use this to evlauate the mean, variance and correlation of residuals.
- If our assumptions of constant variance and uncorrelated residuals are
- violated we may be able to correct this with a variance-stabilizing
- transformation.
- 
-\item The second plot helps us check the normality of the residuals. If the
- residuals are indeed normal, they should fall along the dashed line.
- Remember that the normality assumption for our errors allows us to determine
- the standard errors of our coefficients and predictions.
- 
-\item The final plot will display our residuals vs. their leverage. The dashed red
- lines are level curves that denote a particular value of Cook's distance.
- We will pay attention to points lying beyond the distance of 1. Notice that
- when we have data with row labels, the points will be labeled with their
- names. Otherwise, the row number will be shown.
-\end{itemize}
+
  \begin{framed}
  	\begin{verbatim}
  plot(lmwith, which=c(1,2,5))

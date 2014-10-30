@@ -1,7 +1,11 @@
 
+\documentclass[residuals.tex]{subfiles}
 
+\begin{document}
 
-%--------------------------------------------------- % 
+\Large
+
+--------------------------------------------------- % 
 	\section{Leverage and Influence}
 	
 	\subsection{Summary of Influence Statistics}
@@ -33,7 +37,7 @@ The impact of an observation on a regression fitting can be determined by the di
 Influence arises at two stages of the LME model. Firstly when $V$ is estimated by $\hat{V}$, and subsequent
 estimations of the fixed and random regression coefficients $\beta$ and $u$, given $\hat{V}$.
 
-\
+
 
 \subsubsection{DFBETA}
 A group of measures that measures how much impact each observation has on a particular predictor are the DFBETAs. The DFBETA for a predictor and for a particular observation is the difference between the regression coefficient calculated for all of the data and the regression coefficient calculated with the observation deleted,  scaled by the standard error calculated with the observation deleted.

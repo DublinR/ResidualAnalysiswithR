@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.10.12)  29 OCT 2014 23:34
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.10.12)  29 OCT 2014 23:59
 entering extended mode
 **residuals.tex
 (C:\Users\Kevin\Documents\GitHub\ResidualAnalysiswithR\residuals.tex
@@ -147,7 +147,11 @@ Package: verbatim 2003/08/22 v1.5q LaTeX2e package for verbatim enhancements
 \verbatim@line=\toks21
 \verbatim@in@stream=\read1
 ))
-(C:\Users\Kevin\Documents\GitHub\ResidualAnalysiswithR\residuals.aux)
+(C:\Users\Kevin\Documents\GitHub\ResidualAnalysiswithR\residuals.aux
+
+LaTeX Warning: Label `fig:alcotob' multiply defined.
+
+)
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 17.
 LaTeX Font Info:    ... okay on input line 17.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 17.
@@ -160,8 +164,7 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 17.
 LaTeX Font Info:    ... okay on input line 17.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 17.
 LaTeX Font Info:    ... okay on input line 17.
-
-(C:\Users\Kevin\AppData\Roaming\MiKTeX\2.9\tex\context\base\supp-pdf.mkii
+ (C:\Users\Kevin\AppData\Roaming\MiKTeX\2.9\tex\context\base\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count100
 \scratchdimen=\dimen118
@@ -357,20 +360,139 @@ Package amsmath Warning: Foreign command \over;
 (amsmath)                 on input line 97.
 
 [27])
+(C:\Users\Kevin\Documents\GitHub\ResidualAnalysiswithR\03-residualdiagnostics.t
+ex [28] <alcotob.jpeg, id=118, 1445.4pt x 785.93625pt>
+File: alcotob.jpeg Graphic file (type jpg)
+ <use alcotob.jpeg>
+Package pdftex.def Info: alcotob.jpeg used on input line 55.
+(pdftex.def)             Requested size: 611.00143pt x 332.22562pt.
+
+Overfull \hbox (141.00143pt too wide) in paragraph at lines 55--56
+ [][] 
+ []
+
+<alcotob2.jpeg, id=119, 1445.4pt x 785.93625pt>
+File: alcotob2.jpeg Graphic file (type jpg)
+ <use alcotob2.jpeg>
+Package pdftex.def Info: alcotob2.jpeg used on input line 62.
+(pdftex.def)             Requested size: 611.00143pt x 332.22562pt.
+
+Overfull \hbox (141.00143pt too wide) in paragraph at lines 62--63
+ [][] 
+ []
+
+[29] [30 <C:/Users/Kevin/Documents/GitHub/ResidualAnalysiswithR/alcotob.jpeg>]
+[31 <C:/Users/Kevin/Documents/GitHub/ResidualAnalysiswithR/alcotob2.jpeg>]
+Missing character: There is no â in font cmtt12!
+Missing character: There is no € in font cmtt12!
+Missing character: There is no ˜ in font cmtt12!
+Missing character: There is no â in font cmtt12!
+Missing character: There is no € in font cmtt12!
+Missing character: There is no ™ in font cmtt12!
+Missing character: There is no â in font cmtt12!
+Missing character: There is no € in font cmtt12!
+Missing character: There is no ˜ in font cmtt12!
+Missing character: There is no â in font cmtt12!
+Missing character: There is no € in font cmtt12!
+Missing character: There is no ™ in font cmtt12!
+Missing character: There is no â in font cmtt12!
+Missing character: There is no € in font cmtt12!
+Missing character: There is no ˜ in font cmtt12!
+Missing character: There is no â in font cmtt12!
+Missing character: There is no € in font cmtt12!
+Missing character: There is no ™ in font cmtt12!
+Missing character: There is no â in font cmtt12!
+Missing character: There is no € in font cmtt12!
+Missing character: There is no ˜ in font cmtt12!
+Missing character: There is no â in font cmtt12!
+Missing character: There is no € in font cmtt12!
+Missing character: There is no ™ in font cmtt12!
+Missing character: There is no â in font cmtt12!
+Missing character: There is no € in font cmtt12!
+Missing character: There is no ˜ in font cmtt12!
+Missing character: There is no â in font cmtt12!
+Missing character: There is no € in font cmtt12!
+Missing character: There is no ™ in font cmtt12!
+Missing character: There is no â in font cmtt12!
+Missing character: There is no € in font cmtt12!
+Missing character: There is no ˜ in font cmtt12!
+Missing character: There is no â in font cmtt12!
+Missing character: There is no € in font cmtt12!
+Missing character: There is no ™ in font cmtt12!
+Missing character: There is no â in font cmtt12!
+Missing character: There is no € in font cmtt12!
+Missing character: There is no ˜ in font cmtt12!
+Missing character: There is no â in font cmtt12!
+Missing character: There is no € in font cmtt12!
+Missing character: There is no ™ in font cmtt12!
+Missing character: There is no â in font cmtt12!
+Missing character: There is no € in font cmtt12!
+Missing character: There is no ˜ in font cmtt12!
+Missing character: There is no â in font cmtt12!
+Missing character: There is no € in font cmtt12!
+Missing character: There is no ™ in font cmtt12!
+Missing character: There is no â in font cmtt12!
+Missing character: There is no € in font cmtt12!
+Missing character: There is no ˜ in font cmtt12!
+Missing character: There is no â in font cmtt12!
+Missing character: There is no € in font cmtt12!
+Missing character: There is no ™ in font cmtt12!
+Missing character: There is no â in font cmtt12!
+Missing character: There is no € in font cmtt12!
+Missing character: There is no ˜ in font cmtt12!
+Missing character: There is no â in font cmtt12!
+Missing character: There is no € in font cmtt12!
+Missing character: There is no ™ in font cmtt12!
+
+[32] [33]
+Overfull \hbox (36.62523pt too wide) in paragraph at lines 168--168
+[]\OT1/cmtt/m/n/12 qqPlot(fit1, main="QQ Plot",pch=18, lim=c(-3,2)) #qq plot fo
+r studentized resid[] 
+ []
+
+<alcotob3.jpeg, id=136, 1445.4pt x 785.93625pt>
+File: alcotob3.jpeg Graphic file (type jpg)
+ <use alcotob3.jpeg>
+Package pdftex.def Info: alcotob3.jpeg used on input line 175.
+(pdftex.def)             Requested size: 563.99857pt x 306.6698pt.
+
+Overfull \hbox (93.99857pt too wide) in paragraph at lines 175--178
+ [][] 
+ []
+
+[34] <alcotob4.jpeg, id=140, 1445.4pt x 785.93625pt>
+File: alcotob4.jpeg Graphic file (type jpg)
+ <use alcotob4.jpeg>
+Package pdftex.def Info: alcotob4.jpeg used on input line 183.
+(pdftex.def)             Requested size: 563.99857pt x 306.6698pt.
+
+Overfull \hbox (93.99857pt too wide) in paragraph at lines 183--186
+ [][] 
+ []
+
+[35 <C:/Users/Kevin/Documents/GitHub/ResidualAnalysiswithR/alcotob3.jpeg>]
+[36 <C:/Users/Kevin/Documents/GitHub/ResidualAnalysiswithR/alcotob4.jpeg>]
+<alcotob6.jpeg, id=147, 1445.4pt x 785.93625pt>
+File: alcotob6.jpeg Graphic file (type jpg)
+ <use alcotob6.jpeg>
+Package pdftex.def Info: alcotob6.jpeg used on input line 239.
+(pdftex.def)             Requested size: 328.99857pt x 178.89072pt.
+ [37 <C:/Users/Kevin/Documents/GitHub/ResidualAnalysiswithR/alcotob6.jpeg>] [38
+]) [39]
 (C:\Users\Kevin\Documents\GitHub\ResidualAnalysiswithR\12-InfluentialPoints.tex
-[28]
+[40]
 Overfull \hbox (0.80928pt too wide) in paragraph at lines 38--38
 []\OT1/cmtt/m/n/14.4 rstandard(model, infl = lm.influence(model, do.coef = FALS
 E),[] 
  []
 
-[29]
+[41]
 Overfull \hbox (8.21927pt too wide) in paragraph at lines 57--57
 []\OT1/cmtt/m/n/14.4 rstudent(model, infl = influence(model, do.coef = FALSE), 
 ...)[] 
  []
 
-[30] [31] [32]
+[42] [43] [44]
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no “ in font cmr12!
@@ -383,15 +505,15 @@ Missing character: There is no “ in font cmr12!
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no “ in font cmr12!
- [33]
+ [45]
 Missing character: There is no â in font cmbx12!
 Missing character: There is no € in font cmbx12!
 Missing character: There is no ™ in font cmbx12!
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no “ in font cmr12!
- [34] [35] [36]
-<Screenshot2.png, id=143, 1371.1225pt x 770.88pt>
+ [46] [47] [48]
+<Screenshot2.png, id=189, 1371.1225pt x 770.88pt>
 File: Screenshot2.png Graphic file (type png)
  <use Screenshot2.png>
 Package pdftex.def Info: Screenshot2.png used on input line 257.
@@ -401,7 +523,7 @@ Overfull \hbox (47.00287pt too wide) in paragraph at lines 257--258
  [][] 
  []
 
-[37 <C:/Users/Kevin/Documents/GitHub/ResidualAnalysiswithR/Screenshot2.png>]
+[49 <C:/Users/Kevin/Documents/GitHub/ResidualAnalysiswithR/Screenshot2.png>]
 Overfull \hbox (8.21927pt too wide) in paragraph at lines 276--276
 []\OT1/cmtt/m/n/14.4 dfbeta(model, infl = lm.influence(model, do.coef = TRUE), 
 ...)[] 
@@ -431,38 +553,44 @@ Overfull \hbox (37.85922pt too wide) in paragraph at lines 309--309
 E), ...)[] 
  []
 
-[38]
+[50]
 Overfull \hbox (522.93845pt too wide) in paragraph at lines 319--319
 []\OT1/cmtt/m/n/14.4 infl influence structure as returned by lm.influence or in
 fluence (the latter only for the glm method of rstudent and cooks.distance).[] 
 
  []
 
-[39]) (C:\Users\Kevin\Documents\GitHub\ResidualAnalysiswithR\residuals.aux) ) 
+[51]) (C:\Users\Kevin\Documents\GitHub\ResidualAnalysiswithR\residuals.aux)
+
+LaTeX Warning: There were multiply-defined labels.
+
+ ) 
 Here is how much of TeX's memory you used:
- 2231 strings out of 493921
- 29979 string characters out of 3144875
- 81075 words of memory out of 3000000
- 5479 multiletter control sequences out of 15000+200000
- 9238 words of font info for 36 fonts, out of 3000000 for 9000
+ 2302 strings out of 493921
+ 31032 string characters out of 3144875
+ 81134 words of memory out of 3000000
+ 5527 multiletter control sequences out of 15000+200000
+ 16496 words of font info for 62 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  27i,8n,26p,588b,337s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C
-:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/
-Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Pr
-ogram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbxti10.pfb><C:/Pr
-ogram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Prog
-ram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmitt10.pfb><C:/Progr
-am Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program
- Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program F
-iles (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program File
-s (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files (
-x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files (x8
-6)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Program Files (x86)
-/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on residuals.pdf (39 pages, 1082254 bytes).
+<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb>
+<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C
+:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbxti10.pfb><C
+:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/
+Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmitt10.pfb><C:/P
+rogram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Pro
+gram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Progr
+am Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmib10.pfb><C:/Progra
+m Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program F
+iles (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program File
+s (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files (x
+86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files (x86
+)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files (x86)/M
+iKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Program Files (x86)/MiK
+TeX 2.9/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
+Output written on residuals.pdf (51 pages, 1645405 bytes).
 PDF statistics:
- 194 PDF objects out of 1000 (max. 8388607)
+ 249 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 71 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 96 words of extra memory for PDF output out of 10000 (max. 10000000)
 

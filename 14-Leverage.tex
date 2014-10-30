@@ -55,11 +55,27 @@ Another result of the fact that points further out on X have more leverage is th
 %==========================================================%
 
 \subsubsection{Calculation of Leverage (h)}
-The first step is to standardize the predictor variable so that it has a mean of 0 and a standard deviation of 1. Then, the leverage (h) is computed by squaring the observation's value on the standardized predictor variable, adding 1, and dividing by the number of observations.
+The first step is to standardize the predictor variable so that it has a mean of 0 and a standard deviation of 1. 
+Then, the leverage (h) is computed by squaring the observation's value on the standardized predictor variable, adding 1, 
+and dividing by the number of observations.
 
 % Extreme X value
 % Extreme Y value
 % Extreme X and Y 
 % Distant data point
+\newpage
 
+\begin{framed}
+\begin{verbatim}
+library(car)
+fit <- lm(mpg~disp+hp+wt+drat, data=mtcars) 
+
+#qq plot for studentized residuals
+qqPlot(fit, main="QQ Plot")  
+
+# leverage plots
+leveragePlots(fit) 
+
+\end{verbatim}
+\end{framed}
 \end{document}

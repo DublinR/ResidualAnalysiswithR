@@ -163,9 +163,11 @@ for influential points is through plots.
 
 \begin{framed}
 	\begin{verbatim}
+	#qq plot for studentized resid 
+	qqPlot(fit1, main="QQ Plot",pch=18, lim=c(-3,2)) 
 	
-	qqPlot(fit1, main="QQ Plot",pch=18, lim=c(-3,2)) #qq plot for studentized resid 
-	leveragePlots(fit1) # leverage plots
+	# leverage plots
+	leveragePlots(fit1) 
 	\end{verbatim}
 \end{framed}
 
@@ -192,16 +194,7 @@ details).
 
 
 
-Here we want to focus on three of the plots available through
-the command.
-
-
- \begin{framed}
- 	\begin{verbatim}
- plot(lmwith, which=c(1,2,5))
- \end{verbatim}
-\end{framed}
-
+\newpage
 \begin{framed}
 	\begin{verbatim}
 Influential Observations
@@ -223,10 +216,9 @@ plot(fit, which=4, cook.levels=cutoff)
 \label{fig:alcotob6}
 \end{figure}
 
+\newpage
 \begin{framed}
 	\begin{verbatim}
-
-
 # Influence Plot 
 influencePlot(fit1,	id.method="identify", 
 main="Influence Plot", 
@@ -243,8 +235,11 @@ sub="Circle size is proportial to Cook's Distance" )
 # Normality of Residuals
 # qq plot for studentized resid
 qqPlot(fit1, main="QQ Plot")
+\end{verbatim}
+\end{framed}
 
-
+\begin{framed}
+\begin{verbatim}
 # distribution of studentized residuals
 library(MASS)
 sresid <- studres(fit) 
@@ -265,8 +260,9 @@ lines(xfit, yfit)
 ncvTest(fit)
 # plot studentized residuals vs. fitted values 
 spreadLevelPlot(fit)
-spread vs. levels click to view
-Multi-collinearity
+\end{verbatim}
+\end{framed}
+\subsection*{Multi-collinearity}
 # Evaluate Collinearity
 vif(fit) # variance inflation factors 
 sqrt(vif(fit)) > 2 # problem?
@@ -282,8 +278,8 @@ sqrt(vif(fit)) > 2 # problem?
 crPlots(fit)
 # Ceres plots 
 ceresPlots(fit)
-component plus residual plot Ceres plots click to view
-Non-independence of Errors
+
+# Non-independence of Errors
 # Test for Autocorrelated Errors
 durbinWatsonTest(fit)
 \end{verbatim}
@@ -298,7 +294,7 @@ gvmodel <- gvlma(fit)
 summary(gvmodel)
 \end{verbatim}
 \end{framed}
-\subsection{Going Further}
-If you would like to delve deeper into regression diagnostics, two books written by John Fox can help: Applied regression analysis and generalized linear models (2nd ed) and An R and S-Plus companion to applied regression.
+% \subsection{Going Further}
+% If you would like to delve deeper into regression diagnostics, two books written by John Fox can help: Applied regression analysis and generalized linear models (2nd ed) and An R and S-Plus companion to applied regression.
 
 \end{document}

@@ -7,20 +7,15 @@
 
 \newpage
 
-\subsection{Leverage}
+\section{Leverage}
 % http://onlinestatbook.com/2/regression/influential.html
 % Leverage
-The leverage of an observation is based on how much the observation's value on the predictor variable differs from the mean of the predictor variable. The greater an observation's leverage, the more potential it has to be an influential observation. 
+The leverage of an observation is based on how much the observation's value on the predictor variable differs from the 
+mean of the predictor variable. The greater an observation's leverage, the more potential it has to be an influential observation. 
 
 For example, an observation with a value equal to the mean on the predictor variable has no influence on the slope of the regression line regardless of its value on the criterion variable. On the other hand, an observation that is extreme on the predictor variable has the potential to affect the slope greatly.
 
-\subsubsection{Calculation of Leverage (h)}
-The first step is to standardize the predictor variable so that it has a mean of 0 and a standard deviation of 1. Then, the leverage (h) is computed by squaring the observation's value on the standardized predictor variable, adding 1, and dividing by the number of observations.
 
-% Extreme X value
-% Extreme Y value
-% Extreme X and Y 
-% Distant data point
 
 \subsection{Leverage}
 \begin{itemize}
@@ -30,9 +25,15 @@ The first step is to standardize the predictor variable so that it has a mean of
 
 \item Leverage points are those observations, if any, made at extreme or outlying values of the independent variables such that the lack of neighboring observations means that the fitted regression model will pass close to that particular observation.[1]
 
-\item Modern computer packages for statistical analysis include, as part of their facilities for regression analysis, various quantitative measures for identifying influential observations: among these measures is partial leverage, a measure of how a variable contributes to the leverage of a datum.
+%\item Modern computer packages for statistical analysis include, as part of their facilities for regression analysis, various quantitative measures for identifying influential observations: among these measures is partial leverage, a measure of how a variable contributes to the leverage of a datum.
 
 \end{itemize}
+\subsubsection{Calculation of Leverage (h)}
+The first step is to standardize the predictor variable so that it has a mean of 0 and a standard deviation of 1. Then, the leverage (h) is computed by squaring the observation's value on the standardized predictor variable, adding 1, and dividing by the number of observations.
 
+% Extreme X value
+% Extreme Y value
+% Extreme X and Y 
+% Distant data point
 
 \end{document}

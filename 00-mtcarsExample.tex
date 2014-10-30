@@ -55,30 +55,5 @@ Multiple R-squared:  0.8302,    Adjusted R-squared:  0.8185
 F-statistic: 70.91 on 2 and 29 DF,  p-value: 6.809e-12
 \end{verbatim}
 \newpage
-\begin{framed}
-\begin{verbatim}
-residuals(fit1)
-\end{verbatim}
-\end{framed}
-\begin{figure}[h!]
-\centering
-\includegraphics[width=0.9\linewidth]{screenshot1}
-\caption{}
-\label{fig:screenshot1}
-\end{figure}
-\begin{verbatim}
-> sum(residuals(fit))
-[1] 1.096345e-15
-
-> #Shapiro-Wilk Test for Normality
-> shapiro.test(resid(fit))
- 
- Shapiro-Wilk normality test
- 
- data:  resid(fit)
- W = 0.9375, p-value = 0.06341
- 
- 
-\end{verbatim}
 
 \end{document}

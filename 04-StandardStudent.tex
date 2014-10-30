@@ -17,9 +17,16 @@ A random variable is said to be standardized if the difference from its mean is 
 Instead, you can compute studentized residuals by dividing a residual by an estimate of its standard deviation. 
 
 \subsection{Internal and External Studentization} %1.4.3
-If that estimate is independent of the $i-$th observation, the process is termed \emph{external studentization}`external studentization'. This is usually accomplished by excluding the $i-$th observation when computing the estimate of its standard error. If the observation contributes to the
-standard error computation, the residual is said to be \emph{internally studentization}internally studentized.
+If that estimate is independent of the $i-$th observation, the process is termed \emph{external studentization}. This is usually accomplished by excluding the $i-$th observation when computing the estimate of its standard error. If the observation contributes to the
+standard error computation, the residual is said to be \emph{internally studentized}.
 
+
+\subsection*{\texttt{R} Code}
+\begin{itemize}
+\item Internally studentized residuals: \texttt{rstandard}
+\item Externally studentized residuals: \texttt{rstudent}
+\end{itemize}
+%==================================================%
 %Externally \emph{studentized residual} studentized residual require iterative influence analysis or a profiled residuals variance.
 
 % \subsection{Computation}%1.4.4
@@ -29,11 +36,11 @@ standard error computation, the residual is said to be \emph{internally studenti
 % \[ \boldsymbol{Q} (\hat{\theta}) = \boldsymbol{X} ( \boldsymbol{X}^{\prime}\boldsymbol{Q} (\hat{\theta})^{-1}\boldsymbol{X})\boldsymbol{X}^{-1} \]
 \newpage
 \section{Standardized and Studentized Residuals}
-The standardized residual is the residual divided by its standard deviation. 
+Recall, the standardized residual is the residual divided by its standard deviation. 
  
 Plot the standardized residual of the simple linear regression model of the data set faithful against the independent variable waiting.
 
-We apply the lm function to a formula that describes the variable eruptions by the variable waiting, and save the linear regression model in a new variable eruption.lm. Then we compute the standardized residual with the rstandard function.
+We apply the \texttt{lm} function to a formula that describes the variable eruptions by the variable waiting, and save the linear regression model in a new variable eruption.lm. Then we compute the standardized residual with the rstandard function.
 
 \begin{framed}
 \begin{verbatim}

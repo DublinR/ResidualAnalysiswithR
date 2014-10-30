@@ -7,8 +7,56 @@
 
 An excellent review of regression diagnostics is provided in  \textit{Overview of Regression Diagnostics}. 
 
-Dr. John Fox's \textbf{\textit{car}} package provides advanced utilities for regression modeling.
+Dr. John Fox's \textbf{\textit{car}} package provides advanced utilities for regression modeling. The prestige data set comes with the car package
 
+\subsubsection*{\texttt{avPlots}}
+\begin{itemize}
+\item Graphs outcome vs predictor variables holding the rest constant (also called partial-regression plots)
+\item  Help identify the effect(or influence) of an observation on the regression coefficient of the predictor variable
+\end{itemize}
+\begin{framed}
+\begin{verbatim}
+library(car)
+reg1 <-lm(prestige ~ education + income + type, data = Prestige)
+avPlots(reg1, id.n=2, id.cex=0.7)
+# id.n–id most influential observation
+# id.cex –font size for id.
+\end{verbatim}
+\end{framed}
+\subsubsection*{\texttt{influenceIndexPlot}}
+\begin{itemize}
+\item Cook's distance measures how much an observation influences the overall model or predicted values
+\item  Studentizided residuals are the residuals divided by their estimated standard deviation as a way to standardized
+\item  Bonferronitest to identify outliers
+\item Hat-points identify influential observations (have a high impact on the predictor variables)
+\end{itemize}
+\begin{framed}
+\begin{verbatim}
+library(car)
+reg1 <-lm(prestige ~ education + income + type, data = Prestige)
+influenceIndexPlot(reg1, id.n=3)
+
+\end{verbatim}
+\end{framed}
+
+NOTE: If an observation is an outlier and influential (high leverage) then that observation can change the fit of the linear model, it is advisable to remove it. To remove a case(s) type
+\begin{verbatim}
+reg1a <-update(prestige.reg4, subset=rownames(Prestige) != "general.managers")
+reg1b <-update(prestige.reg4, subset= !(rownames(Prestige) %in% c("general.managers","medical.technicians")))
+\end{verbatim}
+
+\subsubsection*{\texttt{influencePlot}}
+\begin{itemize}
+\item \texttt{influencePlot} creates a bubble-plot combining the display of Studentizedresiduals, hat-values, and Cook's distance (represented in the circles).
+\end{itemize}
+\begin{framed}
+\begin{verbatim}
+library(car)
+reg1 <-lm(prestige ~ education + income + type, data = Prestige)
+influencePlot(reg1, id.n=3)
+\end{verbatim}
+\end{framed}
+\newpage
 \subsection{Alcohol and Tobacco Data}
 This example is for exposition only. We will ignore the fact that this may not be a great way of modeling the this particular set of data!
 

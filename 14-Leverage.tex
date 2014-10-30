@@ -4,6 +4,25 @@
 \documentclass[residuals.tex]{subfiles}
 \begin{document}
 
+The hat matrix, H, sometimes also called influence matrix and projection matrix, maps the vector of observed values to the vector of 
+fitted values (or predicted values). It describes the influence each observed value has on each fitted value.
+
+The diagonal elements of the hat matrix are the leverages, which describe the influence each observed value has on the fitted value for that same observation.
+ 
+If the vector of observed values is denoted by y and the vector of fitted values by $\hat{y}$,
+ 
+\[ \hay{y} = H y\]
+
+
+
+In linear regression model, the leverage score for \[ h_{ii} = (H)_{ii}\] the $i-th$ data unit is defined as:
+
+ 
+\[ H = X(X^{T} X)^{-1}X^{T} \]
+the diagonal of the hat matrix.
+
+
+The leverage score is also known as the observation self-sensitivity or self-influence
 
 \newpage
 

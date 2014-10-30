@@ -51,5 +51,15 @@ residuals(fit1)
  
 \end{verbatim}
 
+\newpage
+\subsubsection*{Weighted Residuals}
+\begin{framed}
+\begin{verbatim}
+x <- 1:10
+w <- 0:9
+y <- rnorm(x)
+weighted.residuals(lmxy <- lm(y ~ x, weights = w))
+\end{verbatim}
+\end{framed}
 
 \end{document}

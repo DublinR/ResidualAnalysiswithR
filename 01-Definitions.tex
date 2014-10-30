@@ -24,7 +24,7 @@ To understand a diagnostic plot called the residual-leverage plot, we must under
 
 %This calculated total distance is called \textbf{Cook's distance}. Fortunately, you don't have to rerun your regression model N times to find out how far the predicted values will move, Cook's D is a function of the leverage and standardized residual associated with each data point.
 
-\newpage
+\subsection*{Example}
 
 Consider the plots associated with four different situations:
 \begin{enumerate}
@@ -55,10 +55,11 @@ Consider the plots associated with four different situations:
 
 \end{itemize}
 
-%For reference, here are the values associated with the special points:
-
-%                               leverage std.residual   cooks.d
-%high leverage,  low residual  0.3814234    0.0014559 0.0000007
-%low leverage,  high residual  0.0476191    3.4456341 0.2968102
-%high leverage, high residual  0.3814234   -3.8086475 4.4722437
+For reference, here are the values associated with the special points:
+\begin{verbatim}
+                               leverage std.residual   cooks.d
+high leverage,  low residual  0.3814234    0.0014559 0.0000007
+low leverage,  high residual  0.0476191    3.4456341 0.2968102
+high leverage, high residual  0.3814234   -3.8086475 4.4722437
+\end{verbatim}
 \end{document}

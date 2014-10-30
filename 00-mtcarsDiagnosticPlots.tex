@@ -28,6 +28,24 @@ There are six plots (selectable by \texttt{which}) are currently available:
 	plot(lm(mpg~wt+cyl),which=c(6),pch=18,col="red")
 	\end{verbatim}
 \end{framed}
+\begin{itemize}
+\item The first one displays the residuals vs. the fitted values
+ we use this to evlauate the mean, variance and correlation of residuals.
+ If our assumptions of constant variance and uncorrelated residuals are
+ violated we may be able to correct this with a variance-stabilizing
+ transformation.
+ 
+\item The second plot helps us check the normality of the residuals. If the
+ residuals are indeed normal, they should fall along the dashed line.
+ Remember that the normality assumption for our errors allows us to determine
+ the standard errors of our coefficients and predictions.
+ 
+\item The final plot will display our residuals vs. their leverage. The dashed red
+ lines are level curves that denote a particular value of Cook's distance.
+ We will pay attention to points lying beyond the distance of 1. Notice that
+ when we have data with row labels, the points will be labeled with their
+ names. Otherwise, the row number will be shown.
+\end{itemize}
 \newpage
 %-------------------------------------------------------------------------------------------%
 \begin{itemize}

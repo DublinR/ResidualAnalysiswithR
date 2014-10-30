@@ -31,16 +31,21 @@ There are six plots (selectable by \texttt{which}) are currently available:
 \newpage
 %-------------------------------------------------------------------------------------------%
 \begin{itemize}
-	\item
+	\item \textbf{Plot 2} -
 	The \textbf{Scale-Location} plot, also called ‘Spread-Location’ (or ‘S-L’ plot), takes the square root of the absolute residuals in order to diminish skewness (sqrt($|E|)$) is much less skewed than $| E |$ for Gaussian zero-mean E).
 	
 	\item \textbf{Plot 5} - 
 	The \textbf{Residual-Leverage} plot shows contours of equal Cook's distance, for values of \texttt{cook.levels} (by default 0.5 and 1) and omits cases with leverage one with a warning. If the leverages are constant (as is typically the case in a balanced aov situation) the plot uses factor level combinations instead of the leverages for the x-axis. \\
 	\textit{(The factor levels are ordered by mean fitted value.)}
 \end{itemize}
+\newpage
+%-------------------------------------------------------------------------------------------%
+EDIT NOTE - FOLLOWING IN WRONG ORDER
+
+\subsubsection*{Plot 1 : Residual Plot}
 
 
-
+Test for Constant Variance
 \begin{figure}[h!]
 	\centering
 	\includegraphics[width=0.95\linewidth]{./mtcarsDiagPlot1}
@@ -49,7 +54,7 @@ There are six plots (selectable by \texttt{which}) are currently available:
 \end{figure}
 
 \newpage
-\subsubsection*{Plot 2 : Normal Probability Plot}
+\subsubsection*{Plot 3 : Normal Probability Plot}
 \begin{figure}[h!]
 	\centering
 	\includegraphics[width=0.95\linewidth]{./mtcarsDiagPlot2}

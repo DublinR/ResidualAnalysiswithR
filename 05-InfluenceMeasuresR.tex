@@ -13,7 +13,7 @@ This suite of functions can be used to compute some of the regression (leave-one
 	\item The functions \texttt{dfbetas}, \texttt{dffits}, \texttt{covratio} and \texttt{cooks.distance} provide direct access to the corresponding diagnostic quantities. 
 	
 	\item Functions \texttt{rstandard} and \texttt{rstudent} give the standardized and Studentized residuals respectively. 
-	
+	( Definition here is different )
 	\item (These functions re-normalize the residuals to have unit variance, using an overall and leave-one-out measure of the error variance respectively.) 
 	
 	\item Values for generalized linear models are approximations, as described in Williams (1987) (except that Cook's distances are scaled as F rather than as chi-square values). The approximations can be poor when some cases have large influence. 
@@ -88,13 +88,17 @@ which(apply(inflm.fit$is.inf, 1, any))
 	\begin{verbatim}
 	dfbeta(model, ...)
 	## S3 method for class 'lm'
-	dfbeta(model, infl = lm.influence(model, do.coef = TRUE), ...)
+	dfbeta(model, 
+		infl = lm.influence(model, do.coef = TRUE), ...)
 	
 	dfbetas(model, ...)
-	## S3 method for class 'lm'
-	dfbetas(model, infl = lm.influence(model, do.coef = TRUE), ...)
 	
-	covratio(model, infl = lm.influence(model, do.coef = FALSE),
+	## S3 method for class 'lm'
+	dfbetas(model, 
+		infl = lm.influence(model, do.coef = TRUE), ...)
+	
+	covratio(model, 
+		infl = lm.influence(model, do.coef = FALSE),
 	res = weighted.residuals(model))
 	\end{verbatim}
 \end{framed}
@@ -104,12 +108,15 @@ which(apply(inflm.fit$is.inf, 1, any))
 	\begin{verbatim}
 	cooks.distance(model, ...)
 	## S3 method for class 'lm'
-	cooks.distance(model, infl = lm.influence(model, do.coef = FALSE),
+	cooks.distance(model, 
+		infl = lm.influence(model, do.coef = FALSE),
 	res = weighted.residuals(model),
 	sd = sqrt(deviance(model)/df.residual(model)),
 	hat = infl$hat, ...)
+	
 	## S3 method for class 'glm'
-	cooks.distance(model, infl = influence(model, do.coef = FALSE),
+	cooks.distance(model, 
+		infl = influence(model, do.coef = FALSE),
 	res = infl$pear.res,
 	dispersion = summary(model)$dispersion,
 	hat = infl$hat, ...)
@@ -121,12 +128,14 @@ which(apply(inflm.fit$is.inf, 1, any))
 	\begin{verbatim}
 	hatvalues(model, ...)
 	## S3 method for class 'lm'
-	hatvalues(model, infl = lm.influence(model, do.coef = FALSE), ...)
+	hatvalues(model, 
+		infl = lm.influence(model, do.coef = FALSE), ...)
 	
 	hat(x, intercept = TRUE)
 	
 	\end{verbatim}
 \end{framed}
+\newpage
 \begin{verbatim}
 Arguments
 model an R object, typically returned by lm or glm.

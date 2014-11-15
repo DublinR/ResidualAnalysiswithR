@@ -8,7 +8,9 @@
 		\item Cook's distance is useful for identifying outliers in the X values (observations for predictor variables). It also shows the influence of each observation on the fitted response values. 
 		\item \textbf{(Case Deletion Diagnostics)} If  predictions are the same with or without the observation in question, then the observation has no influence on the regression model. If the predictions differ greatly when the observation is not included in the analysis, then the observation is influential.
  \item Cook's distance measures the effect of deleting a given observation. Data points with large residuals (outliers) and/or high leverage may distort the outcome and accuracy of a regression. 
-		
+\end{itemize}
+\newpage
+\begin{itemize}
 		\item 
 		Cook's distance is the scaled change in fitted values. Each resulting element in a diagnostic calculation is the normalized change in the vector of coefficients due to the deletion of an observation. 
 		
@@ -116,7 +118,6 @@ A common rule of thumb is that an observation with a value of Cook's D over 1.0 
 \item  Cook's distance is arguably more important if you are doing predictive modeling, whereas \textit{DFBETA} is more important in explanatory modeling.
 \item \textbf{DFFITS}: Although the raw values resulting from the equations are different, Cook's distance and \textit{DFFITS} are conceptually identical and there is a closed-form formula to convert one value to the other.
 \end{itemize}
-
 
 
 %Detecting highly influential observations[edit]

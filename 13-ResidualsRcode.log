@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.10.12)  29 OCT 2014 21:59
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.10.12)  30 OCT 2014 18:28
 entering extended mode
 **13-ResidualsRcode.tex
 (C:\Users\Kevin\Documents\GitHub\ResidualAnalysiswithR\13-ResidualsRcode.tex
@@ -190,24 +190,33 @@ LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <14.4> not available
  [1
 
 {C:/Users/Kevin/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
+<screenshot1.png, id=10, 1371.1225pt x 770.88pt>
+File: screenshot1.png Graphic file (type png)
+ <use screenshot1.png>
+Package pdftex.def Info: screenshot1.png used on input line 35.
+(pdftex.def)             Requested size: 422.99713pt x 237.81758pt.
+ [2 <C:/Users/Kevin/Documents/GitHub/ResidualAnalysiswithR/screenshot1.png>] [3
+]
+[4]
 (C:\Users\Kevin\Documents\GitHub\ResidualAnalysiswithR\13-ResidualsRcode.aux) )
  
 Here is how much of TeX's memory you used:
- 2089 strings out of 493921
- 26826 string characters out of 3144875
- 78049 words of memory out of 3000000
- 5391 multiletter control sequences out of 15000+200000
- 5138 words of font info for 20 fonts, out of 3000000 for 9000
+ 2099 strings out of 493921
+ 26968 string characters out of 3144875
+ 78057 words of memory out of 3000000
+ 5398 multiletter control sequences out of 15000+200000
+ 5446 words of font info for 21 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 36i,6n,28p,290b,170s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C
-:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/P
-rogram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Prog
-ram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Progra
-m Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on 13-ResidualsRcode.pdf (1 page, 48159 bytes).
+ 36i,6n,28p,290b,253s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C
+:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/
+Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Pro
+gram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Progra
+m Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program 
+Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
+Output written on 13-ResidualsRcode.pdf (4 pages, 123783 bytes).
 PDF statistics:
- 26 PDF objects out of 1000 (max. 8388607)
+ 40 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 6 words of extra memory for PDF output out of 10000 (max. 10000000)
 

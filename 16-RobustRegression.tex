@@ -27,7 +27,7 @@ Robust regression is an alternative to ordinary least squares regression (OLS , 
 
 %Additionally I have added a line plot of the Cook’s Distance values. Which observations have the highest values for Cook’s Distance?
 
-
+\newpage
 %------------------------------------------------------------------------------------%
 \subsection{The Cheese data set}
 
@@ -76,7 +76,7 @@ relationship between one or more independent variables and a dependent variable.
 underlying assumptions are true, but can give misleading results if those assumptions are not true; thus
 ordinary least squares is said to be not robust to violations of its assumptions. Robust regression methods are designed to be not overly affected by violations of assumptions by the underlying data-generating process.
 \end{itemize}
-
+\newpage
 \subsubsection*{Usage of Robust Regression}
 \begin{itemize}
 \item Robust regression can be used in any situation in which you would use least squares regression. 
@@ -86,7 +86,7 @@ than most of our data. So we have no compelling reason to exclude them from the 
 \item Robust regression might be a good strategy since it is a compromise between excluding these points entirely from the analysis and including all the data points and treating all them equally in OLS regression. The idea of robust regression is to weigh the observations differently based on how well behaved these observations are. Roughly speaking, it is a form of weighted and reweighted least squares regression.
 \item Robust regression does not address issues of heterogeneity of variance. 
 \end{itemize}
-
+\newpage
 \subsubsection*{Popularity of Robust Regression}
 Despite their superior performance over least squares estimation in many situations, robust methods for regression are still not widely used. Several reasons may help explain their unpopularity (Hampel et al. 1986, 2005). One possible reason is that there are several competing methods and the field got off to many false starts. Also, computation of robust estimates is much more computationally intensive than least squares estimation; in recent years however, this objection has become less relevant as computing power has increased greatly. Another reason may be that some popular statistical software packages failed to implement the methods (Stromberg, 2004). The belief of many statisticians that classical methods are robust may be another reason.
 
@@ -116,6 +116,7 @@ Acid.Conc.   -0.1278   0.1289    -0.9922
 
 Residual standard error: 2.441 on 17 degrees of freedom
 \end{verbatim}
+\newpage
 %-------------------------------------%
 \begin{framed}
 \begin{verbatim}
@@ -137,6 +138,7 @@ Coefficients:
 Degrees of freedom: 21 total; 17 residual
 Scale estimate: 3.09 
 \end{verbatim}
+\newpage
 %-------------------------------------%
 \subsection{Using Other \textit{Psi} Operators}
 
@@ -171,7 +173,7 @@ Degrees of freedom: 21 total; 17 residual
 Scale estimate: 2.28 
 \end{verbatim}
 
-
+\newpage
 \subsection{Implementation of Robust Regression}
 \begin{itemize}
 \item When fitting a least squares regression, we might find some outliers or high leverage data points.  We have decided that these data points are not data entry errors, neither they are from a different population than most of our data. So we have no proper reason to exclude them from the analysis.  

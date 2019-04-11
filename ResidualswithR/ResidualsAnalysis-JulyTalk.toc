@@ -1,9 +1,0 @@
-\contentsline {section}{\numberline {1}Residual Analysis for Linear Models}{2}
-\contentsline {subsection}{\numberline {1.1}Key Concepts}{2}
-\contentsline {subsection}{\numberline {1.2}Studentized and Standardized Residuals}{2}
-\contentsline {subsection}{\numberline {1.3}Cook's Distance}{3}
-\contentsline {subsubsection}{\numberline {1.3.1}\texttt {infleunce}}{3}
-\contentsline {subsubsection}{\numberline {1.3.2}Interpreting Cook's Distance}{3}
-\contentsline {subsubsection}{\numberline {1.3.3}Using the \texttt {plot} command}{3}
-\contentsline {subsubsection}{\numberline {1.3.4}Coding the four plots together}{3}
-\contentsline {subsection}{\numberline {1.4}Diagnostics of LME Models}{4}
